@@ -1,0 +1,121 @@
+/* Exercise 2A */
+.uber-design {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+/* Excercise 2B */
+.amazon-design {
+  margin-left: 10px;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 48px;
+  width: 125px;
+  height: 30px;
+  cursor: pointer;
+}
+/* Excercise 2C */
+.github-design {
+  border: none;
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+/* Excercise 2D */
+.container-design-holder {
+  width: fit-content;
+  margin-top: 20px;
+}
+/* Applying What I know about Containers & Divs */
+.bootstrap-design-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+.bootstrap-get-started {
+  border: none;
+  background-color: rgb(121, 82, 179);
+  color: white;
+  font-weight: bolder;
+  height: 40px;
+  border-radius: 4px;
+  width: 110px;
+  cursor: pointer;
+}
+.bootstrap-download {
+  margin-left: 10px;
+  border-width: 1px;
+  border-color: rgb(108, 117, 125);
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+}
+/* Excercise 2E */
+.linkedin-design-container {
+  display: inline;
+}
+.apply-button {
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(10, 102, 194);
+  margin-right: 5px;
+  cursor: pointer;
+}
+.save-button {
+  font-weight: bold;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  background-color: white;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+/* Exercise 2F */
+hr {
+  margin-top: 20px;
+}
+
+.title-exercise {
+  text-align: center;
+}
+
+.attention-title {
+  color: red;
+  text-decoration: underline;
+}
+.challenge-container {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+a {
+  color: rgb(0, 113, 133);
+}
+.price-stock {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+a,
+p,
+h1 {
+  margin-left: 10px;
+}
