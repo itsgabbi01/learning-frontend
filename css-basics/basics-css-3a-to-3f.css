@@ -1,0 +1,170 @@
+/* Exercise 3A */
+.uber-design {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.uber-design:hover {
+  opacity: 0.8;
+}
+/* Excercise 3B */
+.amazon-design {
+  margin-left: 10px;
+  background-color: rgb(248, 213, 38);
+  color: black;
+  border: none;
+  border-radius: 48px;
+  width: 125px;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.amazon-design:hover {
+  background-color: rgb(235, 202, 41);
+}
+/* Excercise 3C */
+.github-design {
+  border: none;
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: box-shadow 0.2s ease;
+}
+.github-design:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+}
+/* Excercise 3D */
+.container-design-holder {
+  width: fit-content;
+  margin-top: 20px;
+}
+/* Applying What I know about Containers & Divs */
+.bootstrap-design-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+.bootstrap-get-started {
+  border: none;
+  background-color: rgb(121, 82, 179);
+  color: white;
+  font-weight: bolder;
+  height: 40px;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.bootstrap-get-started:hover {
+  background-color: rgb(97, 59, 154);
+}
+.bootstrap-download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+/* Excercise 3E */
+.linkedin-design-container {
+  display: inline;
+}
+.apply-button {
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(10, 102, 194);
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.apply-button:hover {
+  background-color: rgb(16, 91, 167);
+}
+.save-button {
+  font-weight: bold;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  background-color: white;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.save-button:hover {
+  background-color: rgb(226, 240, 254);
+}
+
+.title-exercise {
+  text-align: center;
+}
+.attention-title {
+  color: red;
+  text-decoration: underline;
+}
+.challenge-container {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+.link-back {
+  color: rgb(18, 177, 177);
+}
+.link-back:hover {
+  color: rgb(190, 131, 20);
+}
+.price-stock {
+  color: rgb(0, 209, 0);
+  font-weight: bolder;
+  font-size: 24px;
+}
+/* Refer to Amazon-Design Button Styling */
+.amazon-design:active {
+  opacity: 0.55;
+}
+.buy-now-button {
+  height: 28px;
+  width: 110px;
+  background-color: orange;
+  border: none;
+  border-width: 1px;
+  border-radius: 24px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.buy-now-button:hover {
+  background-color: rgb(202, 137, 17);
+}
+.buy-now-button:active {
+  opacity: 0.55;
+}
+.link-back,
+.product-title,
+.price-stock,
+.delivery-info {
+  margin-left: 10px;
+}

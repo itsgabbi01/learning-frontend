@@ -1,3 +1,3 @@
 # learning-frontend
 
-Learning Frontend Technologies (HTML, CSS, JS)
+# Learning Frontend Technologies (HTML, CSS, JS)
