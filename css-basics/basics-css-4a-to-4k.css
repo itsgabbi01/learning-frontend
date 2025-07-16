@@ -1,0 +1,188 @@
+/* Coverage: Excercise 3A to 3E 
+   Modifying by using padding & margin instead of width and height.
+*/
+/* Excercise 3A */
+.uber-design {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.uber-design:hover {
+  opacity: 0.8;
+}
+/* Excercise 3B */
+.amazon-design {
+  margin-left: 10px;
+  background-color: rgb(248, 213, 38);
+  color: black;
+  border: none;
+  border-radius: 48px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.amazon-design:hover {
+  background-color: rgb(235, 202, 41);
+}
+/* Excercise 3C */
+.github-design {
+  border: none;
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 5.5px 20px 5.5px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: box-shadow 0.2s ease;
+}
+.github-design:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+}
+/* Excercise 3D */
+.container-design-holder {
+  width: fit-content;
+  margin-top: 20px;
+}
+/* Applying What I know about Containers & Divs */
+.bootstrap-design-container {
+  display: inline-block;
+  width: fit-content;
+  margin-right: 10px;
+}
+.bootstrap-get-started {
+  border: none;
+  background-color: rgb(121, 82, 179);
+  color: white;
+  font-weight: bolder;
+  padding: 8px 15px 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.bootstrap-get-started:hover {
+  background-color: rgb(97, 59, 154);
+}
+.bootstrap-download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  vertical-align: top;
+  padding: 7px 15px 7px 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+/* Excercise 3E */
+.linkedin-design-container {
+  display: inline-block;
+  width: fit-content;
+}
+.apply-button {
+  border: none;
+  border-radius: 20px;
+  padding: 6px 18px 6px 18px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(10, 102, 194);
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.apply-button:hover {
+  background-color: rgb(16, 91, 167);
+}
+.save-button {
+  font-weight: bold;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  background-color: white;
+  padding: 6px 10px 6px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.save-button:hover {
+  background-color: rgb(226, 240, 254);
+}
+/* Exercise 4F & 4G */
+.subscribe-button {
+  border: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 10px 16px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 12px;
+}
+.subscribe-button:hover {
+  background-color: rgb(168, 5, 5);
+}
+.subscribe-button:active {
+  background-color: rgb(126, 15, 15);
+}
+.join-button {
+  text-transform: uppercase;
+  background-color: white;
+  color: rgb(6, 95, 212);
+  cursor: pointer;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(6, 95, 212);
+  padding: 9px 15px;
+  border-radius: 2px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin-right: 12px;
+}
+.join-button:hover {
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+.join-button:active {
+  background-color: rgb(9, 78, 168);
+}
+.tweet-button {
+  font-size: 15px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  border: none;
+}
+.tweet-button:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Exercise 4H */
+.back-button {
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+.search-link {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.next-button {
+  margin-left: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
