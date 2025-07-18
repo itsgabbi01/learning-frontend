@@ -1,0 +1,79 @@
+.exercise-5a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.exercise-5b-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.exercise-5b-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  color: red;
+}
+.exercise-5c-header {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.exercise-5c-paragraph {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.exercise-5c-subparagraph {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 350px;
+  line-height: 1.5em;
+}
+.exercise-5c-getstarted-button {
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 12px 15px;
+  border-radius: 18px;
+}
+.exercise-5d-header,
+.exercise-5d-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: bolder;
+  text-align: center;
+}
+.exercise-5d-link {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+/* Challenge Exercise */
+.container {
+  gap: 30px;
+  display: flex;
+  width: fit-content;
+  justify-items: center;
+  margin: auto;
+}
+
+.container-1 {
+  border: 5px solid red;
+}
+.container-2 {
+  border: 5px solid red;
+}
+.container-3 {
+  border: 5px solid red;
+  width: fit-content;
+}
+.par1 {
+  width: 350px;
+}
