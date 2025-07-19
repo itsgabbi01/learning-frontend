@@ -1,0 +1,103 @@
+/* exercise-8a */
+.name,
+.email {
+  display: block;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+/* exercise-8b */
+.survey-paragraph {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+/* exercise-8c */
+.google-logo {
+  display: block;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.searchbar {
+  font-size: 20px;
+  display: block;
+  width: 600px;
+  margin: auto;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  padding: 8px 15px;
+}
+/* exercise-8d */
+.email-address,
+.signup-btn {
+  display: block;
+  margin: auto;
+}
+.center-container {
+  text-align: center;
+}
+.first-name,
+.last-name {
+  display: inline-block;
+  width: 100px;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px;
+}
+.email-address {
+  display: block;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  width: 226px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.signup-btn {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  width: 248px;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+/* exercise 8e */
+.form-header {
+  margin-bottom: 10px;
+}
+
+.pickup-location,
+.destination {
+  width: 300px;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  color: gray;
+  border-color: rgba(200, 200, 200, 0.25);
+  background-color: rgba(200, 200, 200, 0.25);
+  border-style: solid;
+  border-width: 1px;
+}
+.request-btn {
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.schedule-btn {
+  border: none;
+  color: black;
+  background-color: rgba(200, 200, 200, 0.25);
+  padding: 10px;
+  margin-left: 10px;
+}
